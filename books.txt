@@ -1,0 +1,2 @@
+This method adds a new book to the collection.0
+
