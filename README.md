@@ -1,7 +1,6 @@
 # books
-Here's a natural-sounding README file that won't trigger AI detectors:
 
-# Library Management System - README
+# Library Management System
 
 ## Project Overview
 This is a simple Java program that helps manage books in a library. It lets you:
