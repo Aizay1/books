@@ -1,0 +1,52 @@
+
+Book Management System - Project Summary
+Overview:
+This Java-based Book Management System was developed as a team project for the Object-Oriented Programming with Java course. The system simulates a simplified library inventory manager using core OOP principles including encapsulation, inheritance, exception handling, and polymorphism. Built using a command-line interface (CLI), the system allows users to manage books-add, remove, view, and search-persisting data through local file storage.
+Main Objectives:
+* Apply object-oriented design in a real application
+* Manage books using class inheritance
+* Demonstrate exception handling with custom exceptions
+* Store/retrieve data with file I/O
+* Use Java collections for runtime data management
+* Develop a modular architecture suitable for extension
+System Components:
+* Book.java: Parent class encapsulating shared book properties (title, author, ISBN)
+* FictionBook.java and NonFictionBook.java: Subclasses that inherit from Book
+* Library.java: Main logic for managing book records using collections
+* LibraryOperations.java: CLI menu and user input handling
+* FileHandler.java: Utility class for reading and writing to text files
+* BookNotFoundException.java: Custom exception used when operations fail
+* Main.java: Entry point of the application, launches the user interface
+Key Features:
+* User-friendly CLI interface with guided input
+* Polymorphism via method overriding in subclasses
+* Encapsulation through private fields and public getters/setters
+* Persistent storage using BufferedWriter and BufferedReader
+* Custom exception to handle invalid operations
+* Use of ArrayList to dynamically manage book objects
+Strengths:
+* Clean, modular design
+* Practical implementation of inheritance and exception handling
+* File I/O implemented for persistence
+* Fully functional CLI interface
+* Well-structured class hierarchy
+Gaps:
+* No abstract class used (e.g., Book could be abstract)
+* No interfaces implemented (at least 2 required)
+* No JDBC/database integration or DAO pattern
+* Only one collection type (ArrayList) is used
+* No method overloading observed
+* CLI only-GUI with Java Swing is not implemented
+Opportunities for Improvement:
+* Refactor Book as an abstract class with an abstract method like displayDetails()
+* Add interfaces such as Storable, Searchable, or Printable
+* Implement a database with JDBC and PreparedStatements
+* Use DAO classes to handle DB operations cleanly
+* Add a second collection type like HashMap or TreeSet
+* Include overloaded methods to fulfill polymorphism
+* Develop a Swing GUI for improved usability
+Team Collaboration:
+GitHub was used for version control and collaboration. Effective collaboration should reflect in the commit history, showing balanced contribution from each member. Features were divided logically to ensure each member had ownership over specific modules.
+Conclusion:
+This project successfully demonstrates practical application of Java OOP concepts. With minor improvements-particularly abstract classes, interfaces, JDBC integration, and better use of Java's advanced features-the Book Management System could evolve into a comprehensive, production-ready application.
+
