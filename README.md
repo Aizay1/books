@@ -50,7 +50,7 @@ Our team worked together to build this simple system:
    - Organized the team workflow
    - Tested all features thoroughly
 
-5. **Yohana [Last Name]**:
+5. **Yohana Mulugeta**:
    - Wrote documentation
    - Helped with final debugging
 
